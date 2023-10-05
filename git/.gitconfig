@@ -1,0 +1,11 @@
+[core]
+    editor = nvim
+[init]
+    defaultBranch = main
+[alias]
+    l = log --all --oneline --decorate
+    last = log -1 HEAD
+    unstage = restore --staged
+    ds = diff --staged
+[include]
+    path = .gitconfiglocal
