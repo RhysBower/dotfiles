@@ -7,10 +7,10 @@ alias ll='ls -l'
 alias la='ls -la'
 alias v='nvim'
 
-if [[ -f "~/.zshrc-personal" ]] then
-  source "~/.zshrc-personal"
+if [[ -f ~/.zshrc-personal ]] then
+  source ~/.zshrc-personal
 fi
 
-if [[ -f "~/.zshrc-work" ]] then
-  source "~/.zshrc-work"
+if [[ -f ~/.zshrc-work ]] then
+  source ~/.zshrc-work
 fi
