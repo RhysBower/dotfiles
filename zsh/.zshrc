@@ -1,5 +1,7 @@
 export CLICOLOR=1
 
+export VISUAL=nvim
+
 alias ls='ls -h'
 alias ll='ls -l'
 alias la='ls -la'
