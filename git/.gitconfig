@@ -3,7 +3,7 @@
 [init]
     defaultBranch = main
 [alias]
-    l = log --all --oneline --decorate
+    l = log --all --oneline --graph
     last = log -1 HEAD
     unstage = restore --staged
     ds = diff --staged
