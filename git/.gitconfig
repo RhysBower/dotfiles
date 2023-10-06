@@ -8,4 +8,4 @@
     unstage = restore --staged
     ds = diff --staged
 [include]
-    path = .gitconfiglocal
+    path = .gitconfig-local
