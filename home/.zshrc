@@ -14,3 +14,5 @@ fi
 if [[ -f ~/.zshrc-work ]] then
   source ~/.zshrc-work
 fi
+
+eval "$(starship init zsh)"
