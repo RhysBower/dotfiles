@@ -16,3 +16,4 @@ if [[ -f ~/.zshrc-work ]] then
 fi
 
 eval "$(starship init zsh)"
+source ~/.config/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
