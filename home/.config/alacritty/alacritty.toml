@@ -1,0 +1,10 @@
+[font]
+normal.family = "FiraCode Nerd Font Mono"
+
+[window]
+decorations_theme_variant = "Dark"
+
+[general]
+import = [
+    "~/.config/alacritty/themes/themes/tokyo_night_storm.toml"
+]
