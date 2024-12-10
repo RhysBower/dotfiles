@@ -15,6 +15,8 @@ if [[ -f ~/.zshrc-work ]] then
 fi
 
 eval "$(starship init zsh)"
-source ~/.config/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
-source ~/.config/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
+source ~/.config/zsh/antigen.zsh
+antigen bundle zsh-users/zsh-autosuggestions
+antigen bundle zsh-users/zsh-syntax-highlighting
+antigen apply
